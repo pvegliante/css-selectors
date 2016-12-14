@@ -1,0 +1,101 @@
+#logo {
+    font-size: 1.5rem;
+    margin: 0;
+    display: inline-block;
+    margin: 10px;
+    color: red;
+    text-shadow: 1px 1px 1px #FFF;
+    }
+
+    #nav li a {
+        color: blue;
+    }
+
+    #nav li a:visited {
+      color: purple;
+    }
+
+    #above-the-fold .card {
+      color: white;
+    }
+
+    #above-the-fold .card button {
+      background-color: rgb(90, 255, 0);
+      color: rgb(255, 255, 255);
+    }
+
+    article p::first-letter{
+      margin: 30px;
+    }
+
+    #blog {
+      background-color: #666;
+      color: #cff;
+    }
+
+    #gallery figure:hover {
+        box-shadow: 0 5px 5px 5px #000;
+
+    }
+
+    #gallery figcaption {
+      padding: 8px;
+    }
+
+    #blog article h3 {
+      text-align: center;
+    }
+
+    #blog article {
+      margin-top: 40px;
+    }
+
+    section h2  {
+      text-transform: uppercase;
+    }
+
+    section h2:before {
+      content: "**$**";
+    }
+
+    section h2::after {
+      content: "**$**";
+    }
+
+    form input {
+      margin: 10px;
+      padding: 10px;
+    }
+
+    form input:focus,
+    textarea:focus {
+      border-color: green;
+      outline: none;
+    }
+
+    textarea {
+      display: block;
+    }
+
+    input[type="submit"] {
+      display: block;
+    }
+
+    footer {
+      background-color: rgb(75, 77, 79);
+      color: #ff9900
+    }
+      footer p {
+        margin: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+    form  {
+      border-color: green;
+    }
+
+    form input[type="radio"] {
+      margin-left: 20px;
+      margin-right: 5px;
+    }
